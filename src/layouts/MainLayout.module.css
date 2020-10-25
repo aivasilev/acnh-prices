@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+  width: 70vw;
+  background-color: #f0f3bd;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 80vw;
+  }
+}

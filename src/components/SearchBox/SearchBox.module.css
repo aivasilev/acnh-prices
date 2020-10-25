@@ -1,0 +1,16 @@
+.searchbox {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: 3px solid #ccc;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+}
+.searchbox:focus {
+  outline: none;
+  border: 3px solid #02c39a;
+}
+@media (max-width: 768px) {
+  .searchbox {
+    font-size: 1.5rem;
+  }
+}

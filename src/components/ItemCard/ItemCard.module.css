@@ -1,0 +1,39 @@
+.card {
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 2rem;
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.Fish {
+  border: 10px solid #05668d;
+}
+.Bugs {
+  border: 10px solid #9dffb0;
+}
+.Sea_creatures {
+  border: 10px solid #81f1f7;
+}
+.bells {
+  display: inline;
+  width: 32px;
+  height: 32px;
+}
+.price {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.name,
+.price,
+.place {
+  margin: 0 1rem;
+}
+.name {
+  text-align: center;
+}
